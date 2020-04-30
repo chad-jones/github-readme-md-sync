@@ -1,0 +1,21 @@
+{
+  "name": "github-readme-md-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0",
+    "gray-matter": "^4.0.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

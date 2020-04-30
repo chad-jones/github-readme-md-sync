@@ -1,0 +1,18 @@
+name: 'ReadMe API GitHub Markdown Sync'
+description: 'Sync Markdown files to ReadMe automatically'
+author: 'Chad Jones'
+branding:
+  icon: 'cloud'
+  color: 'blue'
+inputs: 
+  repo-token:
+    description: 'The GITHUB_TOKEN secret'
+  file-path:
+    description: 'The folder in your git repo to sync. Omit to take the entire repo'
+  readme-api-key:
+    description: 'Your API key for your ReadMe project'
+  readme-api-version:
+    description: 'ReadMe version to sync to'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
